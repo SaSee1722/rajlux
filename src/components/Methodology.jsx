@@ -8,50 +8,50 @@ const steps = [
   {
     num: '01',
     tag: 'Phase 01',
-    title: 'Discovery & System Architecture Audit',
-    desc: 'Deep-dive architectural consultation to audit market positioning, tech stack prerequisites, user pain points, and measurable milestones. We eliminate ambiguity before a single line of code is written.',
+    title: 'Discovery & Architecture',
+    desc: 'We define requirements, technical architecture, and milestones to ensure complete clarity before writing code.',
     time: 'Week 01',
-    metric: '100% Scope Clarity',
+    metric: 'Scope Clarity',
     icon: Sparkles,
     badgeColor: 'rgba(2, 132, 199, 0.08)',
     accentColor: '#0284c7',
-    deliverables: ['Full Architecture Specification', 'Security Risk Assessment', 'Synchronized Sprint Roadmap'],
+    deliverables: ['Architecture Specs', 'Technical Scope', 'Sprint Roadmap'],
   },
   {
     num: '02',
     tag: 'Phase 02',
-    title: 'Strategy & High-Fidelity Design Systems',
-    desc: 'Minimalist Figma design systems, comprehensive component tokens, responsive typography scales, and interactive user journeys that bring your vision to life before engineering kicks off.',
-    time: 'Week 02 – 03',
-    metric: 'Interactive Prototypes',
+    title: 'UI/UX & Design Systems',
+    desc: 'Interactive Figma prototypes, design tokens, and validated user flows before development begins.',
+    time: 'Weeks 02 – 03',
+    metric: 'Clickable Prototypes',
     icon: Zap,
     badgeColor: 'rgba(79, 70, 229, 0.08)',
     accentColor: '#4f46e5',
-    deliverables: ['Clickable High-Fi Prototype', 'Design Token Library', 'User Journey Validation'],
+    deliverables: ['Interactive Prototype', 'Design System', 'User Flow Review'],
   },
   {
     num: '03',
     tag: 'Phase 03',
-    title: 'Engineering Execution & Automated QA',
-    desc: 'Clean, modular code execution, CI/CD automated deployment pipelines, unit testing, and rigorous multi-device verification to ensure blistering speed and zero critical regressions.',
-    time: 'Week 04 – 06',
-    metric: '95+ Lighthouse Velocity',
+    title: 'Development & Testing',
+    desc: 'Modular code execution, automated testing pipelines, and cross-device QA for maximum speed and stability.',
+    time: 'Weeks 04 – 06',
+    metric: '95+ Speed Score',
     icon: Clock,
     badgeColor: 'rgba(5, 150, 105, 0.08)',
     accentColor: '#059669',
-    deliverables: ['Production-Grade Codebase', 'Automated Testing Suite', 'Cross-Device QA Signoff'],
+    deliverables: ['Clean Production Code', 'Automated QA Tests', 'Device Verification'],
   },
   {
     num: '04',
     tag: 'Phase 04',
-    title: 'Production Cutover & Lifetime Care',
-    desc: 'DNS zero-downtime cutover, production hardening, speed verification, analytics onboarding, followed by perpetual support desk access and proactive updates for lifetime peace of mind.',
-    time: 'Perpetual Partnership',
-    metric: 'Lifetime Support SLA',
+    title: 'Launch & Ongoing Support',
+    desc: 'Zero-downtime deployment followed by perpetual maintenance, security updates, and direct support.',
+    time: 'Ongoing Care',
+    metric: 'Lifetime Support',
     icon: ShieldCheck,
     badgeColor: 'rgba(15, 23, 42, 0.08)',
     accentColor: '#0f172a',
-    deliverables: ['Zero-Downtime Deployment', 'Lifetime Security Patching', 'Dedicated PM Contact'],
+    deliverables: ['Zero-Downtime Launch', 'Security Updates', 'Direct Lead Access'],
   },
 ];
 
@@ -70,16 +70,16 @@ export default function Methodology() {
               viewport={viewport}
               transition={{ duration: 0.5, ease }}
             >
-              // 04 — Methodology & Delivery
+              // 04 — Process
             </motion.span>
             <WordReveal
               as="h2"
               className="section-heading"
-              text="How We Engineer & Ship"
+              text="How We Work"
             />
           </div>
           <p className="section-subtext">
-            A battle-tested four-step linear framework engineered to eradicate ambiguities, protect deadlines, and accelerate time-to-market.
+            A clear 4-step framework to take your project from concept to launch.
           </p>
         </div>
 

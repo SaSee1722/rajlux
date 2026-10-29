@@ -31,7 +31,7 @@ export default function Footer() {
               <span className="footer-brand-title">Rajlux Digital Solutions Pvt. Ltd.</span>
             </motion.div>
             <p className="footer-brand-desc">
-              Architects of ultra-clean, resilient web applications, mobile platforms, and distinctive brand identities. Operating with guaranteed delivery and perpetual support.
+              Bespoke web applications, mobile platforms, and brand design with guaranteed delivery and ongoing support.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontFamily: 'var(--font-mono)', fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>
               <span>India • Global Delivery</span>
@@ -99,13 +99,13 @@ export default function Footer() {
 
           {/* Column 3: Contact */}
           <motion.div variants={staggerChild}>
-            <h4 className="footer-col-title">Contact Details</h4>
+            <h4 className="footer-col-title">Contact</h4>
             <ul className="footer-links-list">
               <li>Email: <a href="mailto:rajlux7733@gmail.com" style={{ fontWeight: 600 }}>rajlux7733@gmail.com</a></li>
               <li>Phone: <a href="tel:+916369589185" style={{ fontWeight: 600 }}>+91 63695 89185</a></li>
               <li>WhatsApp: <a href="https://wa.me/918148753891" target="_blank" rel="noopener noreferrer">+91 81487 53891</a></li>
               <li style={{ paddingTop: '0.5rem', fontFamily: 'var(--font-mono)', fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>
-                Response SLA: ≤ 60 Minutes
+                Response Time: Under 1 hour
               </li>
             </ul>
           </motion.div>

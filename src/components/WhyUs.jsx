@@ -5,12 +5,12 @@ import { ease, fadeUp, staggerContainer, staggerChild, viewport } from '../utils
 import { WordReveal } from './ScrollReveal';
 
 const differentiators = [
-  { icon: Headphones, pill: 'Feature 01', title: 'Lifetime Support', desc: 'Our engineering desk remains accessible throughout your operational lifecycle with zero artificial expiry dates or punitive renewal fees.' },
-  { icon: RefreshCw, pill: 'Feature 02', title: 'Lifetime Updates', desc: 'As browser standards, web APIs, and security frameworks evolve, we patch and update your core systems automatically.' },
-  { icon: Award, pill: 'Feature 03', title: 'Excellent Quality', desc: 'Clean typography, modular component hierarchies, and strict WCAG accessibility guidelines in every screen we deploy.' },
-  { icon: Clock, pill: 'Feature 04', title: 'On-Time Delivery', desc: 'We operate in two-week agile sprint cadences with synchronized milestone reviews. Deadlines are guaranteed commitments.' },
-  { icon: Shield, pill: 'Feature 05', title: 'Enterprise Security', desc: 'End-to-end data encryption, rigorous sanitization, OWASP compliance, and multi-factor authentication systems.' },
-  { icon: TrendingUp, pill: 'Feature 06', title: 'Measurable ROI', desc: 'Directly tying digital architecture to key company metrics: customer acquisition costs, checkout conversions, and retention.' },
+  { icon: Headphones, pill: 'Support', title: 'Lifetime Support', desc: 'Direct access to our engineering team whenever you need help—no expiry dates.' },
+  { icon: RefreshCw, pill: 'Updates', title: 'Lifetime Updates', desc: 'We keep your software updated with modern browser, framework, and security patches.' },
+  { icon: Award, pill: 'Craft', title: 'Polished Quality', desc: 'Clean UI, modular architecture, and accessibility standards in every build.' },
+  { icon: Clock, pill: 'Speed', title: 'On-Time Delivery', desc: 'Structured two-week sprints with clear reviews. Deadlines are guaranteed.' },
+  { icon: Shield, pill: 'Security', title: 'Enterprise Security', desc: 'End-to-end data encryption, OWASP security compliance, and secure authentication.' },
+  { icon: TrendingUp, pill: 'Impact', title: 'Measurable ROI', desc: 'Focused on real metrics: faster load times, higher conversions, and retention.' },
 ];
 
 export default function WhyUs() {
@@ -29,15 +29,15 @@ export default function WhyUs() {
             viewport={viewport}
             transition={{ duration: 0.5, ease }}
           >
-            // 03 — Differentiators
+            // 03 — Why Us
           </motion.span>
           <WordReveal
             as="h2"
             className="section-heading"
-            text="Built on Uncompromising Excellence"
+            text="Built on Quality & Trust"
           />
           <p className="section-subtext" style={{ maxWidth: '580px' }}>
-            We don't abandon clients after deployment. Our contracts represent lasting partnerships with explicit guarantees.
+            Long-term partnerships backed by real guarantees, clean code, and ongoing support.
           </p>
         </div>
 

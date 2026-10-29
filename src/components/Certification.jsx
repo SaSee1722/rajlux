@@ -65,22 +65,22 @@ export default function Certification() {
     {
       icon: ShieldCheck,
       label: 'Enterprise Classification',
-      val: 'Micro Enterprise · Major Activity: Services',
+      val: 'Micro Enterprise · Services',
     },
     {
       icon: FileText,
       label: 'National Industry Code (NIC)',
-      val: 'NIC 62099 — Computer Programming, Consultancy & IT Services',
+      val: 'NIC 62099 — Computer Consultancy & IT Services',
     },
     {
       icon: Calendar,
-      label: 'Incorporation & Registration Date',
-      val: '17/09/2026 (Inc.) · 18/09/2026 (Reg.)',
+      label: 'Incorporation & Registration',
+      val: 'September 2026',
     },
     {
       icon: MapPin,
-      label: 'Registered Operational Base',
-      val: 'Coimbatore, Tamil Nadu — Pin 641104',
+      label: 'Registered Location',
+      val: 'Coimbatore, Tamil Nadu, India',
     },
   ];
 
@@ -97,13 +97,13 @@ export default function Certification() {
             viewport={viewport}
             transition={{ duration: 0.5, ease }}
           >
-            // VERIFIED CREDENTIALS & COMPLIANCE
+            // Official Certification
           </motion.span>
 
           <WordReveal
             as="h2"
             className="section-heading"
-            text="Government Certified Digital Solutions Agency"
+            text="Government Certified Agency"
           />
 
           <motion.p
@@ -113,7 +113,7 @@ export default function Certification() {
             viewport={viewport}
             transition={{ duration: 0.6, ease, delay: 0.15 }}
           >
-            Rajlux Digital Solutions is an officially registered enterprise with the Ministry of Micro, Small and Medium Enterprises (MSME), Government of India, operating under standard legal, compliance, and IT service frameworks.
+            Rajlux Digital Solutions is officially registered with the Ministry of MSME, Government of India, operating under standard legal and IT service frameworks.
           </motion.p>
         </div>
 
@@ -260,7 +260,7 @@ export default function Certification() {
                 <div className="cert-verify-text">
                   <strong>Verification Authority</strong>
                   <p>
-                    Authenticate this registration on the official National Portal:
+                    Verify on the official government portal:
                   </p>
                 </div>
                 <a

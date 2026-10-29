@@ -5,10 +5,10 @@ import { staggerContainer, viewport } from '../utils/animations';
 
 const trustItems = [
   { icon: ShieldCheck, label: 'Lifetime Support' },
-  { icon: Gem, label: 'Swiss Craft Quality' },
-  { icon: Clock, label: 'Guaranteed On-Time' },
+  { icon: Gem, label: 'Premium Quality' },
+  { icon: Clock, label: 'On-Time Delivery' },
   { icon: Lock, label: 'Enterprise Security' },
-  { icon: TrendingUp, label: 'Measurable Business ROI' },
+  { icon: TrendingUp, label: 'Proven ROI' },
 ];
 
 export default function TrustBar() {

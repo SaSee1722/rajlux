@@ -33,13 +33,13 @@ export default function CtaBanner() {
                   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease } },
                 }}
               >
-                // Ready for What's Next
+                // Start a Project
               </motion.span>
 
               <WordReveal
                 as="h2"
                 className="cta-heading"
-                text="Ready to build a cleaner, faster digital presence?"
+                text="Ready to build something great?"
               />
 
               <motion.p
@@ -49,7 +49,7 @@ export default function CtaBanner() {
                   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease } },
                 }}
               >
-                Join 100+ businesses that rely on Rajlux Digital Solutions for software engineering, bespoke platforms, and continuous high-velocity updates.
+                Let's discuss your project and build a fast, modern digital solution for your business.
               </motion.p>
 
               <motion.div
@@ -97,7 +97,7 @@ export default function CtaBanner() {
               >
                 <span className="cta-perk-item">
                   <CheckCircle2 size={13} className="cta-perk-icon" />
-                  <span>24h Rapid Response</span>
+                  <span>1-Hour Response</span>
                 </span>
                 <span className="cta-perk-item">
                   <CheckCircle2 size={13} className="cta-perk-icon" />
@@ -105,7 +105,7 @@ export default function CtaBanner() {
                 </span>
                 <span className="cta-perk-item">
                   <CheckCircle2 size={13} className="cta-perk-icon" />
-                  <span>Explicit SLA Guarantee</span>
+                  <span>Guaranteed Delivery</span>
                 </span>
               </motion.div>
             </motion.div>
@@ -139,7 +139,7 @@ export default function CtaBanner() {
                   <div className="cta-badge-dot" />
                   <div className="cta-badge-content">
                     <span className="cta-badge-title">Engineering In Session</span>
-                    <span className="cta-badge-sub">Sub-Second UX & Clean Code</span>
+                    <span className="cta-badge-sub">Clean Code & Fast UX</span>
                   </div>
                 </motion.div>
               </div>

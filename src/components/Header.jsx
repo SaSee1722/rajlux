@@ -28,20 +28,20 @@ export default function Header() {
   }, []);
 
   const solutionsItems = [
-    { title: 'Web Development', desc: 'High-performance platforms & apps', href: '#services', icon: Globe },
-    { title: 'Mobile Applications', desc: 'iOS & Android native touch UX', href: '#services', icon: Smartphone },
-    { title: 'Cloud & Infrastructure', desc: 'Resilient cloud architecture & CI/CD', href: '#services', icon: Cloud },
-    { title: 'E-Commerce Solutions', desc: 'Sub-second headless checkouts', href: '#services', icon: ShoppingBag },
-    { title: 'Brand Identity', desc: 'Design systems & typography', href: '#services', icon: Palette },
-    { title: 'Digital Growth & SEO', desc: 'Performance marketing & conversion', href: '#services', icon: BarChart3 },
+    { title: 'Web Development', desc: 'Platforms & web apps', href: '#services', icon: Globe },
+    { title: 'Mobile Applications', desc: 'iOS & Android apps', href: '#services', icon: Smartphone },
+    { title: 'Cloud & Infrastructure', desc: 'Cloud setup & CI/CD', href: '#services', icon: Cloud },
+    { title: 'E-Commerce Solutions', desc: 'Fast online storefronts', href: '#services', icon: ShoppingBag },
+    { title: 'Brand Identity', desc: 'Logos & design systems', href: '#services', icon: Palette },
+    { title: 'Digital Growth & SEO', desc: 'SEO & performance ads', href: '#services', icon: BarChart3 },
   ];
 
   const companyItems = [
-    { title: 'About Rajlux', desc: 'Our ethos, standards & engineering philosophy', href: '#about' },
-    { title: 'Why Choose Us', desc: 'Lifetime support & explicit SLA guarantees', href: '#why-us' },
-    { title: 'Our Methodology', desc: 'Linear 4-phase agile delivery framework', href: '#process' },
-    { title: 'Selected Works', desc: 'Case studies, web and mobile showcase', href: '#portfolio' },
-    { title: 'Government Certification', desc: 'MSME registered & verified credentials', href: '#certification' },
+    { title: 'About Rajlux', desc: 'Our standards & ethos', href: '#about' },
+    { title: 'Why Choose Us', desc: 'Guarantees & support', href: '#why-us' },
+    { title: 'Our Methodology', desc: '4-step delivery process', href: '#process' },
+    { title: 'Selected Works', desc: 'Case studies & client work', href: '#portfolio' },
+    { title: 'Government Certification', desc: 'MSME verified entity', href: '#certification' },
   ];
 
   const handleNavClick = (href) => {
@@ -294,16 +294,16 @@ export default function Header() {
 
               <div className="eatroutes-drawer-body">
                 <div className="eatroutes-drawer-group">
-                  <span className="eatroutes-drawer-label">// Main Sections</span>
+                  <span className="eatroutes-drawer-label">// Navigation</span>
                   <ul className="eatroutes-drawer-links">
-                    <li><a href="#home" onClick={(e) => { e.preventDefault(); handleNavClick('#home'); }}>Home Overview</a></li>
-                    <li><a href="#about" onClick={(e) => { e.preventDefault(); handleNavClick('#about'); }}>About Agency</a></li>
-                    <li><a href="#services" onClick={(e) => { e.preventDefault(); handleNavClick('#services'); }}>Services & Solutions</a></li>
-                    <li><a href="#why-us" onClick={(e) => { e.preventDefault(); handleNavClick('#why-us'); }}>Why Rajlux & Guarantees</a></li>
-                    <li><a href="#process" onClick={(e) => { e.preventDefault(); handleNavClick('#process'); }}>Delivery Framework</a></li>
-                    <li><a href="#portfolio" onClick={(e) => { e.preventDefault(); handleNavClick('#portfolio'); }}>Selected Works</a></li>
-                    <li><a href="#certification" onClick={(e) => { e.preventDefault(); handleNavClick('#certification'); }}>Government Certification</a></li>
-                    <li><a href="#contact" onClick={(e) => { e.preventDefault(); handleNavClick('#contact'); }}>Contact & Consultation</a></li>
+                    <li><a href="#home" onClick={(e) => { e.preventDefault(); handleNavClick('#home'); }}>Home</a></li>
+                    <li><a href="#about" onClick={(e) => { e.preventDefault(); handleNavClick('#about'); }}>About</a></li>
+                    <li><a href="#services" onClick={(e) => { e.preventDefault(); handleNavClick('#services'); }}>Services</a></li>
+                    <li><a href="#why-us" onClick={(e) => { e.preventDefault(); handleNavClick('#why-us'); }}>Why Us</a></li>
+                    <li><a href="#process" onClick={(e) => { e.preventDefault(); handleNavClick('#process'); }}>Process</a></li>
+                    <li><a href="#portfolio" onClick={(e) => { e.preventDefault(); handleNavClick('#portfolio'); }}>Portfolio</a></li>
+                    <li><a href="#certification" onClick={(e) => { e.preventDefault(); handleNavClick('#certification'); }}>MSME Certification</a></li>
+                    <li><a href="#contact" onClick={(e) => { e.preventDefault(); handleNavClick('#contact'); }}>Contact</a></li>
                   </ul>
                 </div>
 

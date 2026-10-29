@@ -16,10 +16,10 @@ const checkIcon = {
 };
 
 const checkpoints = [
-  { title: 'Standards of Reliability', desc: 'Rigorous QA, cross-browser compatibility, and speed optimization.' },
-  { title: 'Dedicated Project Manager', desc: 'A single clear point of contact with weekly sprints and transparent reporting.' },
-  { title: 'Transparent Fixed Pricing', desc: 'Strict milestones with zero hidden charges or unpredictable retainers.' },
-  { title: 'Guaranteed Timelines', desc: 'On-time milestone delivery backed by agile development practices.' },
+  { title: 'Reliable Code', desc: 'Clean architecture, speed optimization, and cross-browser testing.' },
+  { title: 'Dedicated Lead', desc: 'A direct point of contact with weekly sprint updates.' },
+  { title: 'Fixed Pricing', desc: 'Transparent milestones with zero hidden fees or surprises.' },
+  { title: 'Guaranteed Delivery', desc: 'Milestones delivered on schedule, backed by agile sprints.' },
 ];
 
 export default function About() {
@@ -44,12 +44,12 @@ export default function About() {
                 viewport={viewport}
                 transition={{ duration: 0.5, ease }}
               >
-                // 01 — About Agency
+                // 01 — About
               </motion.span>
               <WordReveal
                 as="h2"
                 className="section-heading"
-                text="The Gold Standard in Digital Engineering."
+                text="Engineering with Precision."
                 delay={0.08}
               />
             </div>
@@ -63,7 +63,7 @@ export default function About() {
               whileHover={{ y: -6, borderColor: 'var(--border-hover)', boxShadow: '0 16px 40px rgba(15,23,42,0.08)' }}
             >
               <div className="studio-id-top">
-                <span className="studio-id-label">Studio Identifier</span>
+                <span className="studio-id-label">Studio Profile</span>
                 <motion.span
                   className="pulse-dot"
                   title="Active Agency Status"
@@ -75,12 +75,12 @@ export default function About() {
                 <div className="studio-id-inc">Incorporated</div>
                 <div className="studio-id-title">Rajlux Digital Solutions Pvt. Ltd.</div>
                 <p className="studio-id-desc">
-                  Delivering cutting-edge web platforms, mobile software, and brand systems for 100+ global partners.
+                  Custom software, web platforms, and brand systems engineered to scale.
                 </p>
               </div>
               <div className="studio-id-footer">
                 <div><strong>Status</strong> Verified Active</div>
-                <div><strong>HQ</strong> India • Global Delivery</div>
+                <div><strong>Base</strong> India • Global</div>
               </div>
             </motion.div>
           </motion.div>
@@ -100,7 +100,7 @@ export default function About() {
               viewport={viewport}
               transition={{ duration: 0.6, ease }}
             >
-              At <strong>Rajlux Digital Solutions Pvt. Ltd.</strong>, we fuse rigorous engineering precision with elegant minimalist aesthetics. We do not build bloated, slow websites—we build high-performance digital engines engineered to scale operations and accelerate market leadership.
+              At <strong>Rajlux Digital Solutions</strong>, we build fast, resilient digital products with clean code and modern aesthetics. From startups to growing enterprises, we prioritize transparency, speed, and real business results.
             </motion.p>
             <motion.p
               className="about-subnarrative"
@@ -109,7 +109,7 @@ export default function About() {
               viewport={viewport}
               transition={{ duration: 0.6, delay: 0.1, ease }}
             >
-              From early-stage startups to established enterprises, our team champions transparency, clean codebases, and proactive communication. Every project is paired with an uncompromising quality checklist.
+              Every build follows strict quality standards—ensuring your software is secure, responsive, and easy to maintain.
             </motion.p>
 
             <motion.div
@@ -155,7 +155,7 @@ export default function About() {
               transition={{ duration: 0.5, delay: 0.3, ease }}
               whileHover={{ x: 8 }}
             >
-              <span>View Case Studies</span>
+              <span>View Projects</span>
               <motion.span
                 animate={{ x: [0, 4, 0] }}
                 transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}

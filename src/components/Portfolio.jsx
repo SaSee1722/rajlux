@@ -5,12 +5,12 @@ import { ease, fadeUp, staggerContainer, viewport } from '../utils/animations';
 import { WordReveal } from './ScrollReveal';
 
 const portfolioItems = [
-  { id: 1, category: 'web', categoryLabel: 'Web Development', badge: 'E-Commerce Platform', title: 'Luxury Fashion Store', desc: 'Full-stack headless commerce platform with dynamic 3D asset viewer and sub-second instant checkout.', meta: 'Performance 99/100', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB5hdugat2HuMLNKycxKjUiUEDqnwwasMfQ4969Qbe4nmjyIytRO5x7qNsrNy2krqp3gwvdgxAA5ZY-0ACU4gtTO7t8J2HBkiT46KUGgjLsXzSz61B-OIzC-jzlbMWF7mKD_kqVAwTjo6rCQzCE7Z6jOdhNEkbw8SY0OiMUf9kCc0CybTF859dZLp2S_IIZhoS81V06CWzZQT7bjGVHNQ0C4Ak8BSrLa4AUWzHqLG-uzhW9iPRWmceeCg' },
-  { id: 2, category: 'mobile', categoryLabel: 'Mobile App', badge: 'FinTech Native App', title: 'Digital Banking Solution', desc: 'Secure, biometric-enabled banking mobile interface with instantaneous transaction logging and encrypted ledger.', meta: 'iOS & Android', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC1KVb7V9q8pMr3tqgfbsakYYLLElpDsp8UC-knOxUZLxMxQIdfi-assMTz9sPk5OMSqiJSI2_HcNP713e5b2R49HrToaaPUQVstPhuSmKi5OfVF_OQYgA86BP9MxaJ1jE9EWGtD1ACkor9RQNZuhq4tP-UuxMrN-54zUCGBIRuyDPrrnmHwMFoQ6pw3X-Z0SzR09sXl_Wbu49W6jYeSj2sOvuNt7welOotayY8jwJsz-DhpOUk4pnXKg' },
-  { id: 3, category: 'branding', categoryLabel: 'Branding', badge: 'Brand Architecture', title: 'Corporate Identity System', desc: 'Comprehensive visual token system, corporate stationery, and typographic scale guidelines for scale-up ventures.', meta: 'Tokenized UI Kit', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDZ627rx3XvGkE9_cU-6BIAyDV3nSfmEIS-qPD5exEr3-ifKKKYzE6urnDdF4KoRIbapPmx5aqJhE9wnMZ91mW3f4wXUTIsA_ARuCuimJP5Z5yVzYmoSWXB13zQltTG_aLNBdMXpZfmZ6S6g_WdiUSvuxdfraRl_2d-OhMRBUFRsBUvfyKT6eIjTZsd_3ajQAkM7wVzji7fRD6vCGRg_RuFhpOC-KzWULdTa8naHz1gfYTSPzmKcWeDhg' },
-  { id: 4, category: 'web', categoryLabel: 'Web App', badge: 'SaaS Platform', title: 'Enterprise Analytics Suite', desc: 'Real-time operational business intelligence platform with sub-second stream telemetry and custom data visualization.', meta: 'Real-Time WebSockets', image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80' },
-  { id: 5, category: 'mobile', categoryLabel: 'Mobile App', badge: 'Omnichannel App', title: 'NextGen Retail Experience', desc: 'Seamless augmented catalog, 1-tap Apple Pay/Google Pay integration, and AI-curated personalized outfit suggestions.', meta: '4.9★ App Store', image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80' },
-  { id: 6, category: 'branding', categoryLabel: 'Branding', badge: 'Luxury Identity', title: 'Artisan Visual Identity', desc: 'High-contrast typography, debossed copper foiling guidelines, digital design system, and multi-channel asset pack.', meta: '360° Brand Book', image: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80' },
+  { id: 1, category: 'web', categoryLabel: 'Web Development', badge: 'E-Commerce Platform', title: 'Luxury Fashion Store', desc: 'Modern headless e-commerce store with 3D product view and fast checkout.', meta: 'Performance 99/100', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB5hdugat2HuMLNKycxKjUiUEDqnwwasMfQ4969Qbe4nmjyIytRO5x7qNsrNy2krqp3gwvdgxAA5ZY-0ACU4gtTO7t8J2HBkiT46KUGgjLsXzSz61B-OIzC-jzlbMWF7mKD_kqVAwTjo6rCQzCE7Z6jOdhNEkbw8SY0OiMUf9kCc0CybTF859dZLp2S_IIZhoS81V06CWzZQT7bjGVHNQ0C4Ak8BSrLa4AUWzHqLG-uzhW9iPRWmceeCg' },
+  { id: 2, category: 'mobile', categoryLabel: 'Mobile App', badge: 'FinTech Native App', title: 'Digital Banking Solution', desc: 'Secure mobile banking app with biometric authentication and real-time ledger.', meta: 'iOS & Android', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC1KVb7V9q8pMr3tqgfbsakYYLLElpDsp8UC-knOxUZLxMxQIdfi-assMTz9sPk5OMSqiJSI2_HcNP713e5b2R49HrToaaPUQVstPhuSmKi5OfVF_OQYgA86BP9MxaJ1jE9EWGtD1ACkor9RQNZuhq4tP-UuxMrN-54zUCGBIRuyDPrrnmHwMFoQ6pw3X-Z0SzR09sXl_Wbu49W6jYeSj2sOvuNt7welOotayY8jwJsz-DhpOUk4pnXKg' },
+  { id: 3, category: 'branding', categoryLabel: 'Branding', badge: 'Brand Architecture', title: 'Corporate Identity System', desc: 'Complete brand identity, design system tokens, and typography guidelines.', meta: 'Tokenized UI Kit', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDZ627rx3XvGkE9_cU-6BIAyDV3nSfmEIS-qPD5exEr3-ifKKKYzE6urnDdF4KoRIbapPmx5aqJhE9wnMZ91mW3f4wXUTIsA_ARuCuimJP5Z5yVzYmoSWXB13zQltTG_aLNBdMXpZfmZ6S6g_WdiUSvuxdfraRl_2d-OhMRBUFRsBUvfyKT6eIjTZsd_3ajQAkM7wVzji7fRD6vCGRg_RuFhpOC-KzWULdTa8naHz1gfYTSPzmKcWeDhg' },
+  { id: 4, category: 'web', categoryLabel: 'Web App', badge: 'SaaS Platform', title: 'Enterprise Analytics Suite', desc: 'Real-time analytics dashboard with live telemetry and custom visualization.', meta: 'Real-Time WebSockets', image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80' },
+  { id: 5, category: 'mobile', categoryLabel: 'Mobile App', badge: 'Omnichannel App', title: 'NextGen Retail Experience', desc: 'Omnichannel shopping app with 1-tap checkout and personalized feed.', meta: '4.9★ App Store', image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80' },
+  { id: 6, category: 'branding', categoryLabel: 'Branding', badge: 'Luxury Identity', title: 'Artisan Visual Identity', desc: 'Refined visual identity, typography system, and cross-channel asset library.', meta: '360° Brand Book', image: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80' },
 ];
 
 const filterTabs = [
@@ -40,11 +40,11 @@ export default function Portfolio() {
           viewport={viewport}
         >
           <div>
-            <span className="section-eyebrow">// 05 — Showcase</span>
+            <span className="section-eyebrow">// 05 — Portfolio</span>
             <WordReveal
               as="h2"
               className="section-heading"
-              text="Selected Works & Case Studies"
+              text="Selected Work"
             />
           </div>
 

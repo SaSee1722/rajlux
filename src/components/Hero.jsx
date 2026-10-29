@@ -35,15 +35,15 @@ export default function Hero() {
   const featureCards = [
     {
       icon: <Code2 size={20} strokeWidth={2} />,
-      title: 'Bespoke Software',
-      sub: 'End-to-end custom builds',
+      title: 'Custom Software',
+      sub: 'End-to-end development',
       color: '#eef2ff',
       iconColor: '#4f46e5',
     },
     {
       icon: <Layers size={20} strokeWidth={2} />,
       title: 'Brand & Web Design',
-      sub: 'High-conversion platforms',
+      sub: 'High-converting UX',
       color: '#fdf2f8',
       iconColor: '#db2777',
     },
@@ -126,7 +126,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, ease, delay: 0.68 }}
             >
-              Rajlux Digital Solutions Pvt. Ltd. builds bespoke software, high-conversion web platforms, and refined brand identities — with guaranteed on-time delivery and lifetime support.
+              We build custom software, high-performance web platforms, and refined brand identities with guaranteed on-time delivery and lifetime support.
             </motion.p>
 
             {/* CTA Button — dark pill */}
@@ -197,8 +197,8 @@ export default function Hero() {
               transition={{ duration: 0.45, ease, delay: 1.0 }}
             >
               {[
-                { value: '5+', label: 'Projects' },
-                { value: '98%', label: 'Satisfaction' },
+                { value: '10+', label: 'Projects' },
+                { value: '99%', label: 'Satisfaction' },
                 { value: '24/7', label: 'Support' },
               ].map((s, i) => (
                 <div key={i} className="metto-mobile-stat">
@@ -221,8 +221,8 @@ export default function Hero() {
             {/* Floating stats overlay */}
             <div className="metto-stat-chips">
               {[
-                { value: '5+', label: 'Projects' },
-                { value: '98%', label: 'Satisfaction' },
+                { value: '10+', label: 'Projects' },
+                { value: '99%', label: 'Satisfaction' },
                 { value: '24/7', label: 'Support' },
               ].map((s, i) => (
                 <motion.div

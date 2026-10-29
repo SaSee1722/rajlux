@@ -5,12 +5,12 @@ import { ease, fadeUp, staggerContainer, staggerChild, viewport } from '../utils
 import { WordReveal } from './ScrollReveal';
 
 const servicesData = [
-  { id: 'web', index: '01', icon: Globe, title: 'Web Development', desc: 'High-performance web apps built with modern frameworks. Blazing speeds, semantic code, and seamless responsiveness across devices.', tags: ['Responsive UI', 'SEO & Core Web Vitals', 'Headless CMS'], featured: false },
-  { id: 'mobile', index: '02', icon: Smartphone, title: 'Mobile App Development', desc: 'Native and cross-platform iOS & Android mobile applications engineered for high retention, lightning responsiveness, and intuitive touch UX.', tags: ['iOS & Android', 'React Native / Flutter', 'Store Optimization'], featured: true },
-  { id: 'marketing', index: '03', icon: BarChart3, title: 'Digital Marketing', desc: 'Systematic client acquisition programs utilizing technical SEO, precision PPC campaigns, and conversion rate optimization (CRO).', tags: ['Search Engine Optimization', 'Paid Media', 'Attribution Models'], featured: false },
-  { id: 'branding', index: '04', icon: Palette, title: 'Branding & Identity', desc: 'Distinctive visual design systems, brand guidelines, typography standards, and asset libraries that establish industry authority.', tags: ['Visual Identity', 'Design Tokens', 'Brand Books'], featured: false },
-  { id: 'cloud', index: '05', icon: Cloud, title: 'Cloud & IT Solutions', desc: 'Resilient cloud infrastructure setup, automated CI/CD pipelines, container orchestration, and continuous uptime monitoring.', tags: ['Cloud Migration', 'DevOps Automation', 'Security Audits'], featured: false },
-  { id: 'ecommerce', index: '06', icon: ShoppingBag, title: 'E-Commerce Solutions', desc: 'Frictionless online storefronts with customized checkout flows, automated ERP/inventory integrations, and sub-second catalog navigation.', tags: ['Custom Checkouts', 'Shopify / Headless', 'Global Payment Gateways'], featured: false },
+  { id: 'web', index: '01', icon: Globe, title: 'Web Development', desc: 'Fast, modern web applications built with clean code and seamless responsiveness across devices.', tags: ['Modern Frameworks', 'Core Web Vitals', 'CMS & APIs'], featured: false },
+  { id: 'mobile', index: '02', icon: Smartphone, title: 'Mobile App Development', desc: 'Intuitive iOS and Android apps engineered for performance, smooth UX, and high retention.', tags: ['iOS & Android', 'React Native / Flutter', 'Store Ready'], featured: true },
+  { id: 'marketing', index: '03', icon: BarChart3, title: 'Digital Marketing', desc: 'Data-driven technical SEO, targeted paid media, and conversion rate optimization.', tags: ['Technical SEO', 'Targeted Ads', 'Conversion Growth'], featured: false },
+  { id: 'branding', index: '04', icon: Palette, title: 'Branding & Identity', desc: 'Memorable logos, design systems, and visual guidelines that define your brand identity.', tags: ['Visual Identity', 'Design Systems', 'Brand Books'], featured: false },
+  { id: 'cloud', index: '05', icon: Cloud, title: 'Cloud & IT Solutions', desc: 'Resilient cloud infrastructure, automated CI/CD pipelines, and continuous monitoring.', tags: ['Cloud Setup', 'DevOps & CI/CD', 'Security Audits'], featured: false },
+  { id: 'ecommerce', index: '06', icon: ShoppingBag, title: 'E-Commerce Solutions', desc: 'Fast online storefronts with streamlined checkouts and automated integrations.', tags: ['Custom Checkout', 'Shopify / Headless', 'Payment Gateways'], featured: false },
 ];
 
 export default function Services({ onSelectService }) {
@@ -28,7 +28,7 @@ export default function Services({ onSelectService }) {
               viewport={viewport}
               transition={{ duration: 0.5, ease }}
             >
-              // 02 — Capabilities
+              // 02 — Services
             </motion.span>
             <WordReveal
               as="h2"
@@ -37,7 +37,7 @@ export default function Services({ onSelectService }) {
             />
           </div>
           <p className="section-subtext">
-            Clean architectures designed to solve complex user flows, improve conversions, and guarantee enterprise stability.
+            Modern digital solutions built for speed, stability, and scale.
           </p>
         </div>
 

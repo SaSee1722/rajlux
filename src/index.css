@@ -93,6 +93,7 @@ html.lenis, html.lenis body {
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -1428,6 +1429,7 @@ img {
 .hero-title .gold-gradient-text {
   background: linear-gradient(135deg, #0f172a 0%, #0284c7 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
   position: relative;
@@ -3346,6 +3348,32 @@ textarea.form-input-control {
   min-height: 110px;
 }
 
+/* Form validation error states */
+.form-input-control.is-invalid {
+  border-color: #ef4444 !important;
+  background-color: #fff9f9;
+}
+
+.form-input-control.is-invalid:focus {
+  border-color: #dc2626 !important;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15) !important;
+}
+
+.form-error-msg {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #dc2626;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 0.15rem;
+}
+
+.req-star {
+  color: #ef4444;
+  margin-left: 2px;
+}
+
 .btn-form-submit {
   width: 100%;
   border-radius: 12px;
@@ -3372,13 +3400,13 @@ textarea.form-input-control {
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.25);
 }
 
-/* Success Card */
+/* Success & WhatsApp Feedback Card */
 .form-feedback-card {
   display: none;
-  align-items: center;
+  flex-direction: column;
   gap: 0.75rem;
   margin-top: 1.25rem;
-  padding: 1rem 1.25rem;
+  padding: 1.1rem 1.25rem;
   border-radius: 12px;
   border: 1px solid #a7f3d0;
   background-color: #ecfdf5;
@@ -3389,6 +3417,51 @@ textarea.form-input-control {
 
 .form-feedback-card.active {
   display: flex;
+}
+
+.feedback-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.feedback-title {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #065f46;
+  margin-bottom: 0.2rem;
+}
+
+.feedback-desc {
+  margin: 0;
+  color: #047857;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+}
+
+.wa-direct-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #25d366;
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 0.25rem;
+  transition: all var(--transition-fast);
+  box-shadow: 0 2px 6px rgba(37, 211, 102, 0.25);
+  width: fit-content;
+}
+
+.wa-direct-link:hover {
+  background-color: #20ba5a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.35);
 }
 
 /* ── Footer ──────────────────────────────────────────────── */
